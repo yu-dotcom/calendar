@@ -101,13 +101,13 @@
         <select name="year">
             <?php 
                 $startYear = 1970;  //カレンダー開始年
-                $EndYear = 2050;    //カレンダー終了年
+                $endYear = 2050;    //カレンダー終了年
             
                 if($thisYear == null){
                     $thisYear = date('Y');  //今年が何年か取得
                 }
             
-                for($year = $startYear;$year <= $EndYear;$year++){
+                for($year = $startYear;$year <= $endYear;$year++){
                     if( $year == $thisYear ){
                         echo "<option value=\"$year\"  selected>$year</option>";
                     }else {
