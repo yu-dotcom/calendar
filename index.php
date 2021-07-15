@@ -122,7 +122,7 @@
         <select name="month">
            <?php
                 if( $thisMonth == null ){
-                    $thisMonth = date('n');  //今年が何月か取得
+                    $thisMonth = date('n');  //今月が何月か取得
                 }
                 for($month = 1;$month <= 12;$month++){
                     if( $month == $thisMonth ){
