@@ -89,7 +89,7 @@
 <head>
     <meta charset="UTF-8">
     <title>カレンダー</title>
-	<meta name="Author" content="Yusuke_Yoshida"/>
+	<meta name="Author" content="yu-dotcom"/>
 	<link rel="stylesheet" type="text/css" href="./css/reset.css">
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
